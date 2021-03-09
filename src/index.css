@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.App header {
+background: #1e65ff;
+width:  100%;
+padding: 15px 80px;
+}
+.App header div {
+  font-weight: bold;
+  font-size:24px;
+  color: #FFF;
+}
+.App .content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.Article {
+line-height: 10px;
+  margin-bottom: 50px;
+}
+
+
+/* App React Query */
+body{
+  margin :  0;
+  font-family: sans-serif;
+  background-color: #222;
+  color : #DDD ;
+  text-align: center;
+}
+.AppQuery{
+  width: 960px;
+  margin : 0 auto ;
+}
+
+.Navbar {
+  margin-top: 20px;
+
+}
+
+.Navbar h1 {
+  letter-spacing: 4px;
+  color: #ccc91d;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.planets .content {
+
+ width: 100%;
+ float: left;
+}
+.planets .content  .all{
+ margin-top: 80px;
+
+}
+
+
+.planets .content button {
+  border: #DDD solid 2px;
+  float: left;
+  padding : 8px 12px;
+  background-color: #ccc91d;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.card {
+  padding: 8px 16px;
+  background: #1b1b1b;
+  margin: 16px 0;
+  border-radius: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.card h3{
+  margin : 10px 0 ;
+  color : #ffff57;
+}
